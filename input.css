@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    padding: .3rem 1rem;
+    border-radius: .5rem;
+    color: #0495F6;
+    font-size: .8rem;
+}
+
+.btn.selected {
+    color: white;
+    background-color: #0495F6;
+}
+
+.header {
+    border-bottom: #DDDDDD 2px solid;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.num-info, .extra {
+    font-size: .75%;
+}
+
